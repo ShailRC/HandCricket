@@ -1,0 +1,46 @@
+# Maven-specific
+target/
+*.jar
+*.war
+*.ear
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IDE-specific
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse-specific
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans-specific
+nbproject/private/
+build/
+dist/
+nbdist/
+*.nb-gradle/
+
+# IntelliJ-specific
+out/
+
+# Other common files to ignore
+*.class
+*.log
+hs_err_pid*
+.DS_Store
+Thumbs.db
+
+# OS-generated files
+._*
+*.swp
+*~
+
+# Local configuration files (if any)
+local.properties
